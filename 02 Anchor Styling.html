@@ -1,3 +1,18 @@
+<!-- 
+2. Anchor styling
+
+Med CSS är grundtanken att du skriver regler för tex färg och form - och specificerar vilka element som reglerna ska gälla.
+Tex så denna kod gör alla anchors (länkar - dvs <a> tag') blåa.
+
+a {
+  color: blue;
+}
+
+Instruktioner:
+Skapa en html-sida med en A tag, När man klickar ska den gå till google.com och texten ska vara "Gå till google"
+Ändra ny stylen så att länktexten blir gul 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,21 +26,25 @@
     <!-- Det är fortfarande rekommenderad att man skapa en separat .css fil! -->
 
     <style>
-        p {
-            background-color: blue;
+        a {
+            color: yellow;
         }
     </style>
 
-    <title>01 Style Tag</title>
+    <title>02 Anchor Styling</title>
 </head>
 
 <body>
 
     <h1>02 Anchor Styling</h1>
 
+    <a href="https://google.com" target="_blank">Gå till Google</a>
 
-    <a href="!!Run Me!!.html">Hem</a>
-
+    <!-- Hmmmm även denna p blev blå.... det ville inte jag egentligen. -->
+    <!-- Ändra så att denna länk inte är gul! -->
+    <div>
+        <a href="!!Run Me!!.html">Hem</a>
+    </div>
 
 
 
