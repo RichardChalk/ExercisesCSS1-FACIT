@@ -1,0 +1,59 @@
+<!-- 
+6 Class selectors
+
+Det finns olika sätt att välja vilka element som style-reglerna ska gälla. 
+Tag-selector har vi kört hittills. Ett annat sätt är att klassificiera element själv (class tag)
+Man använder class-propertyn för att klassificera ett element. Tex <a href="" class="test">. 
+Stilregler appliceras sen på ALLA element med det klass-värdet
+
+.small{
+    font-size: 9px;
+                color: red;
+}
+
+Alla HTML-taggar med class="small" kommer att ha font-size 9px. 
+Dvs det kanske är en div och en p såväl som en speciell H2 som vi vill ska vara p det sättet
+
+INSTRUKTIONER
+Utgå från följande style.css
+.b-blue {
+        background: blue;
+}
+
+Skapa nu en html-fil med en h1, en h2, och tre stycken p.
+Nu ska h2:an och den mittersta p-paragrafen ha blå bakgrund 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/06 Class Selectors-style.css">
+
+    <title>06 Class Selectors</title>
+</head>
+
+<body>
+
+    <h1>06 Class Selectors</h1>
+
+    <h2 class="b-blue">This is my H2</h2>
+
+    <p>My P1</p>
+    <p class="b-blue">My P2</p>
+    <p>My P3</p>
+
+    <div>
+        <a href="!!Run Me!!.html">Hem</a>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
