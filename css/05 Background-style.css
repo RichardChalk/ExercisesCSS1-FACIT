@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://aspcodeprod.blob.core.windows.net/school-dev/4907157.jpg);
+    background-size: cover;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+}
+
+.grad {
+    height: 100px;
+    background-image: linear-gradient(red, yellow);
+}
