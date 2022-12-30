@@ -1,0 +1,21 @@
+.card {
+    display: inline-block;
+    width: 50px;
+    height: 80px;
+    position: relative;
+    border: 1px solid blue;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 5px;
+    color: blue;
+}
+
+.redcard {
+    color: red;
+    border: 1px solid red;
+}
+
+.blackcard {
+    color: black;
+    border: 1px solid black;
+}

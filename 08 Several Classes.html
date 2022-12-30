@@ -1,0 +1,63 @@
+<!-- 
+8 Flera klasser
+
+Genom att applicera flera klasser till ett och samma element kan man kombinera egenskaper.
+Utgå ifrån:
+        .card {
+            display: inline-block;
+            width: 50px;
+            height: 80px;
+            position: relative;
+            border: 1px solid blue;
+            text-align: center;
+            line-height: 80px;
+            border-radius: 5px;
+            color: blue;
+        }        
+
+
+Samt denna html:
+    <div class="card blackcard">&spades;9</div>
+    <div class="card redcard">&hearts;9</div>
+    <div class="card redcard">&diams;9</div>
+    <div class="card blackcard">&clubs;9</div>
+
+Här har vi HTML-entities för korttecknen.
+
+INSTRUKTIONER
+Skapa nu .redcard och .blackcard klasserna så det blir rätt färg på dessa (color och border) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/08 Several Classes-style.css">
+
+    <title>08 Several Classes</title>
+</head>
+
+<body>
+
+    <h1>08 Several Classes</h1>
+
+    <div class="card blackcard">&spades;9</div>
+    <div class="card redcard">&hearts;9</div>
+    <div class="card redcard">&diams;9</div>
+    <div class="card blackcard">&clubs;9</div>
+
+
+
+    <div>
+        <a href="!!Run Me!!.html">Hem</a>
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
